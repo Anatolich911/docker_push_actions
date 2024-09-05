@@ -46,5 +46,6 @@ jobs:
     - name: P 
       uses: docker/build-push-action@v6
       with:
+        contexgitt: .
         push: true
         tags: user/ecr:Latest
