@@ -52,4 +52,4 @@ jobs:
       uses: docker/build-push-action@v6
       with:
         push: true
-        tags: user/ecr:Lates
+        tags: 739153323366.dkr.ecr.us-east-2.amazonaws.com/lesson-086/ecr:Latest
