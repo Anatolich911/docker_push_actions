@@ -59,4 +59,5 @@ jobs:
     #   with:
     #     contexgitt: .
     #     push: true
-    #     tags: user/ecr:Latest
+    #     tags: user/ecr:Lates
+    
