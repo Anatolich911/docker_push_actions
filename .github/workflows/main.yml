@@ -60,4 +60,4 @@ jobs:
       uses: docker/build-push-action@v6
       with:
         push: true
-        tags: $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+        tags: 739153323366.dkr.ecr.us-east-2.amazonaws.com/lesson-086:v1.1.1
