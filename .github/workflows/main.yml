@@ -47,4 +47,3 @@ jobs:
       uses: docker/build-push-action@v6
       with:
         push: true
-        tags: 739153323366.dkr.ecr.us-east-2.amazonaws.com/namespace/ecr:Latest
