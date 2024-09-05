@@ -53,6 +53,10 @@ jobs:
       uses: docker/setup-buildx-action@v3
 
     - name: P 
+      env:
+        ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+        ECR_REPOSITORY: lesson-086
+        IMAGE_TAG: ${{ steps.increment-git-tag.outputs.git-tag }}
       uses: docker/build-push-action@v6
       with:
         push: true
